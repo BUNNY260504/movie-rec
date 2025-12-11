@@ -2,7 +2,7 @@
 
  🎬 Movie Recommender System
 
-A content‑based movie recommender web app that helps you discover films using TMDb metadata and similarity scores. Users can search for movies, get similar recommendations, explore trending titles, and view rich details like posters, overviews, ratings, genres, and cast information in a clean UI.[1][2]
+A content‑based movie recommender web app that helps you discover films using TMDb metadata and similarity scores. Users can search for movies, get similar recommendations, explore trending titles, and view rich details like posters, overviews, ratings, genres, and cast information in a clean UI.
 
 ***
 
