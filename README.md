@@ -6,21 +6,6 @@ A content‑based movie recommender web app that helps you discover films using 
 
 ***
 
-## Table of Contents
-
-- Features  
-- Tech Stack  
-- Project Structure  
-- How It Works  
-- Setup and Installation  
-- Usage Guide  
-- Model and Data Details  
-- Future Improvements  
-- Contributing  
-- License  
-
-***
-
 ## Features
 
 - Search any movie by title and instantly load its details from TMDb (poster, overview, rating, genres, etc.).
