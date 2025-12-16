@@ -27,7 +27,6 @@ A content‑based movie recommender web app that helps you discover films using 
 | Data Storage   | Local CSV / pickle files for movies metadata and similarity matrix = |
 | Environment    | Conda/virtualenv, requirements.txt for dependencies          |
 
-If your repo uses a different web framework or extra libraries, update this table accordingly.
 
 ***
 
