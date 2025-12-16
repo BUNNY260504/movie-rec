@@ -31,33 +31,6 @@ If your repo uses a different web framework or extra libraries, update this tabl
 
 ***
 
-## Project Structure
-
-Example structure for this type of project (adjust to your actual files):
-
-```text
-Movie-Recommender-System/
-├── app.py                  # Main web app entry point (Streamlit/Flask)
-├── model/
-│   ├── movies.pkl          # Preprocessed movies metadata
-│   ├── similarity.pkl      # Precomputed similarity matrix
-│   └── __init__.py
-├── data/
-│   └── raw_movies.csv      # Raw TMDb/Kaggle dataset (if included)
-├── notebooks/
-│   └── eda_and_model.ipynb # EDA and model building
-├── utils/
-│   ├── recommender.py      # Functions to compute recommendations
-│   └── tmdb_client.py      # Helper functions to call TMDb API
-├── requirements.txt        # Python dependencies
-├── .env.example            # Example environment variables (TMDB_API_KEY)
-└── README.md
-```
-
-If your folders differ, just rename them in this section.
-
-***
-
 ## How It Works
 
 1. **Data ingestion and preprocessing**  
