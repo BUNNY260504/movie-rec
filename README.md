@@ -160,6 +160,25 @@ Then open the URL shown in the terminal (usually `http://localhost:8501` for Str
 - **Similarity metric**: Cosine similarity on vectorized text features, stored in a pre‑computed matrix for fast lookup.
 - **Data source**: TMDb or a Kaggle TMDb dataset (e.g., TMDB 5000 Movies) for offline metadata, plus TMDb API calls for live posters and details.
 
+- Movie-Recommender-System/
+│
+├── app.py                          # Main Streamlit application
+├── Movie Recommender System.ipynb  # Data preprocessing & model training
+├── requirements.txt                # Python dependencies
+├── .gitignore                      # Git ignore rules
+├── LICENSE                         # MIT License
+│
+├── Dataset/                        # Raw movie data
+│   ├── tmdb_5000_movies.csv
+│   └── tmdb_5000_credits.csv
+│
+├── model_files/                    # Trained models
+│   ├── movie_list.pkl             # Movie data (4806 movies)
+│   └── similarity.pkl             # Cosine similarity matrix (4806×4806)
+│
+└── .streamlit/                     # Configuration (not in repo)
+    └── secrets.toml               # TMDB API key
+
 
 
 
