@@ -29,6 +29,30 @@ A content‑based movie recommender web app that helps you discover films using 
 
 
 ***
+┌─────────────────┐
+│   User Input    │
+│  (Movie Title)  │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Streamlit App  │
+│   (Frontend)    │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Recommender    │
+│    Engine       │
+│ (Cosine Sim.)   │
+└────────┬────────┘
+         │
+         ├───────────────┬───────────────┐
+         ▼               ▼               ▼
+┌──────────────┐  ┌──────────┐  ┌──────────────┐
+│ Similarity   │  │ TMDB API │  │ Local Cache  │
+│ Matrix (pkl) │  │ (Live)   │  │ (Session)    │
+└──────────────┘  └──────────┘  └──────────────┘
 
 ## How It Works
 
